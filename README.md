@@ -1,36 +1,39 @@
-AI Resume Builder
-A modern, interactive resume builder powered by artificial intelligence to generate professional resumes quickly and efficiently.
+📄 AI Resume Builder
+An AI-powered Resume Builder built with Next.js 15 that helps users create professional resumes effortlessly.
+Enhance your work experience, generate summaries, and suggest skills with integrated AI assistance. Export your resume in PDF and Word formats instantly.
 
-=====================================================================================================================================================================================================================
-Features
-AI-Powered Content Generation: Uses advanced language models to create tailored resume content based on job descriptions.
-Template Customization: Choose from multiple professionally designed templates.
-Real-time Preview: See how your resume looks while editing.
-Export Options: Download as PDF or shareable link.
-Responsive Design: Works seamlessly across desktop and mobile devices.
+🚀 Features
+✨ AI Assistance
 
-=====================================================================================================================================================================================================================
-Tech Stack
-Frontend: React, TypeScript, Tailwind CSS
-AI Integration: OpenAI API / Gemini API
-PDF Generation: jsPDF or html2c
-State Management: Redux Toolkitanvas
-Form Handling: Formik with Yup validation
+Enhance resume bullet points with professional phrasing.
+Generate tailored career summaries.
+Get job-relevant skill suggestions.
+📝 Resume Editing
 
-=====================================================================================================================================================================================================================
-Usage
-Launch the app and select a template
-Enter your personal information and work experience
-Use the AI assistant to generate content suggestions
-Customize your resume with drag-and-drop elements
-Preview and download your finished resume
-Contributing
-Contributions are welcome! Please follow these steps:
+Add personal details, education, experience, and projects.
+Live preview of the resume.
+📤 Export Options
 
-Fork the repository
-Create a new branch (git checkout -b feature/new-feature)
-Commit your changes (git commit -am 'Add new feature')
-Push to the branch (git push origin feature/new-feature)
-Create a new Pull Request
+Download as PDF.
+Download as Word.
+⚡ Modern Tech Stack
 
-
+Built on Next.js 15 (App Router).
+API Routes for AI & export functionality.
+Fully optimized for performance & SEO.
+🛠️ Tech Stack
+Frontend: Next.js 15 (React 18/19+)
+Styling: Tailwind CSS (if enabled)
+Backend API: Next.js API Routes
+AI Integration: OpenAI / Gemini (configurable via /api/ai/*)
+Exporting: PDF & Word generation
+📂 Project Structure
+.
+├── app/                 # Next.js App Router pages
+├── components/          # Reusable UI components
+├── api/
+│   ├── ai/              # AI endpoints (enhance, summary, skills)
+│   └── export/          # Resume export (PDF, Word)
+├── public/              # Static assets
+├── package.json
+└── README.md
